@@ -21,7 +21,7 @@ int main() {
   printf("\n");
 
   clock_t start = clock(), diff;
-  for (int i = 1; i < n; i++) {
+  for (int i = 1; i <= n; i++) {
     c[0] = '\0';
 
     if(i%f==0){strcat(c, fizz);}
